@@ -1,0 +1,28 @@
+@import "../../../css/brand/ColorVariables.less";
+
+.css-output {
+    margin-bottom: 50px;
+
+    .css-output-display {
+        background-color: @deep-teal;
+        color: @white;
+        margin-top: -25px;
+        opacity: 0.9;
+    }
+    
+    .btn-default {
+        border-color: @white;
+        border-style: solid;
+        border-width: 1px;
+
+        &:focus {
+            box-shadow: none;
+        }
+
+        &:hover {
+            background-color: @white;
+            border-color: @deep-teal;
+            color: @deep-teal;
+        }
+    }
+}

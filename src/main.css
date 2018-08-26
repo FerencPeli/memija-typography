@@ -1,0 +1,27 @@
+body {
+    background-attachment: fixed;
+    background-color: #ffffff;
+    background-image: url("../../../../src/resources/images/background.jpg");
+    background-repeat: repeat-y;
+    background-size: cover;
+    font-family: 'Kalam', cursive;
+}
+
+/* Bootstrap section. */
+
+.btn-default {
+    background-color: transparent;
+    border-style: none;
+    color: #ffffff;
+}
+
+.btn-default:hover {
+    cursor: pointer;
+}
+
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+/* Bootstrap section. */

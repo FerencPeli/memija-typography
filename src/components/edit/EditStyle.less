@@ -1,0 +1,40 @@
+@import "../../css/brand/ColorVariables.less";
+
+.edit {
+    margin-bottom: 0px;
+    
+    input,
+    select {
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        padding-bottom: 1px;
+        padding-left: 1px;
+        padding-right: 1px;
+        padding-top: 1px;
+    }
+
+    label {
+        color: @white;
+    }
+
+    input[type=color] {
+        margin-top: 7px;
+    }
+
+    input[type=number] {
+        max-width: 50px;
+    }
+
+    @media only screen and (max-width : 768px) {
+        .col-xs-6 {
+            padding-left: 0px;
+    
+            .btn {
+                padding-left: 8px;
+                padding-right: 8px;
+            }
+        }
+    }
+}

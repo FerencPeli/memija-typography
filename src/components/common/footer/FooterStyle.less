@@ -1,0 +1,26 @@
+@import "../../../css/brand/ColorVariables.less";
+
+.footer {
+    bottom: 0;
+    padding-top: 2px;
+    position: fixed;
+    width: 100%;
+
+    a {
+        color: @deep-teal;
+        padding-bottom: 5px;
+
+        &:focus{
+            text-decoration: none;
+        }
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+    
+    .information {
+        background-color: @deep-teal;
+        color: @white;
+    }
+}
